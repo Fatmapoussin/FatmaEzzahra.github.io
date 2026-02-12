@@ -1,60 +1,53 @@
 body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  background-color: #f7f9fc;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+  background: #ffffff;
+  color: #222;
 }
 
 .container {
-  max-width: 900px;
+  max-width: 800px;
   margin: 60px auto;
-  background: white;
-  padding: 50px;
-  box-shadow: 0 5px 25px rgba(0,0,0,0.08);
-  border-radius: 8px;
+  padding: 0 20px;
 }
 
 header {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 h1 {
-  margin-bottom: 5px;
-}
-
-.subtitle {
-  color: #555;
-  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 28px;
 }
 
 h2 {
-  margin-top: 40px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #ddd;
   padding-bottom: 8px;
+  margin-top: 50px;
 }
 
-.job {
-  margin-top: 20px;
+.item {
+  margin-top: 25px;
 }
 
-.job span {
+.item span {
+  display: block;
   font-size: 0.9em;
-  color: #777;
+  color: #666;
+  margin-bottom: 8px;
 }
 
 ul {
-  margin-top: 10px;
-}
-
-footer {
-  margin-top: 50px;
-  text-align: center;
-  font-size: 0.9em;
-  color: #555;
+  margin: 8px 0 0 20px;
 }
 
 a {
-  color: #1a73e8;
+  color: #000;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
